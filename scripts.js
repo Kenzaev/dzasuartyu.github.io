@@ -55,8 +55,8 @@ document.addEventListener('DOMContentLoaded', function() {
     searchBar.addEventListener('input', function() {
         displayProducts(searchBar.value);
     });
-    
+
+    // Отображение товаров при загрузке страницы
     displayProducts();
-    
 });
 
